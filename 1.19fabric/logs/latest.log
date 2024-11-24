@@ -1,7 +1,12 @@
-[20:25:26] [main/INFO]: Loading Minecraft 1.19 with Fabric Loader 0.16.9
-[20:25:27] [main/INFO]: Loading 50 mods:
-	- architectury 5.14.84
+[13:47:34] [main/INFO]: Loading Minecraft 1.19 with Fabric Loader 0.16.9
+[13:47:35] [main/INFO]: Loading 54 mods:
+	- appleskin 2.4.1+mc1.19
+	   \-- cloth-config 7.0.65
+	        \-- cloth-basic-math 0.6.1
 	- carpet 1.4.79
+	- carpet-tis-addition 1.38.0
+	   |-- conditional-mixin 0.3.1
+	   \-- org_yaml_snakeyaml 1.30
 	- fabric 0.58.0+1.19
 	   |-- fabric-api-base 0.4.9+e62f51a3a9
 	   |-- fabric-api-lookup-api-v1 1.6.7+9ff28f40a9
@@ -52,105 +57,48 @@
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- gca 2.4.0-1.19
-	- java 17
-	- lazydfu 0.1.3
+	- java 23
+	- jei 11.1.1.239
 	- lithium 0.8.1
 	- magiclib 0.5.32
 	   \-- magiclib-1_19 0.5.32
 	- minecraft 1.19
-	- phosphor 0.8.1
 	- xaerominimap 22.12.0
 	- xaeroworldmap 1.26.1
-[20:25:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/mcServer/1.19fabric/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:25:27] [main/INFO]: Compatibility level set to JAVA_16
-[20:25:27] [main/INFO]: Compatibility level set to JAVA_17
-[20:25:27] [main/INFO]: Loaded configuration file for Lithium: 94 options available, 0 override(s) found
-[20:25:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:25:33] [main/INFO]: Building unoptimized datafixer
-[20:25:34] [main/INFO]: [MagicLib for 1.19]: Mod initialized - Version: 0.5.32
-[20:25:34] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[20:25:34] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[20:25:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:25:35] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[20:25:36] [main/INFO]: Loaded 7 recipes
-[20:25:36] [main/INFO]: Loaded 1179 advancements
-[20:25:37] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.085 ms
-[20:25:37] [Server thread/INFO]: Starting minecraft server version 1.19
-[20:25:37] [Server thread/INFO]: Loading properties
-[20:25:37] [Server thread/INFO]: Default game type: SURVIVAL
-[20:25:37] [Server thread/INFO]: Generating keypair
-[20:25:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:25:37] [Server thread/INFO]: Using default channel type
-[20:25:37] [Server thread/INFO]: Preparing level "world"
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting carpets as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting openFakePlayerInventory as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting fakePlayerResident as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting language as zh_cn from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting ctrlQCraftingFix as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting hopperCounters as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting fakePlayerAutoReplenishment as true from carpet.conf
-[20:25:37] [Server thread/INFO]: [CM]: loaded setting flippinCactus as true from carpet.conf
-[20:25:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:25:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:25:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:25:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:25:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[20:25:40] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[20:25:40] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[20:25:41] [Worker-Main-5/INFO]: Preparing spawn area: 19%
-[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 19%
-[20:25:41] [Server thread/INFO]: Time elapsed: 3737 ms
-[20:25:41] [Server thread/INFO]: Done (4.252s)! For help, type "help"
-[20:25:41] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[20:25:41] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[20:26:47] [User Authenticator #1/INFO]: UUID of player the_Tilapia is 6789c971-62b0-4ab8-adfb-9ec42ab8338a
-[20:26:47] [Server thread/INFO]: the_Tilapia[/127.0.0.1:60952] logged in with entity id 953 at (-430.9294999075313, 63.0, -723.3432876594038)
-[20:26:47] [Server thread/INFO]: the_Tilapia joined the game
-[20:26:49] [Netty Server IO #1/INFO]: Player the_Tilapia joined with a matching carpet client
-[20:26:59] [Server thread/INFO]: [the_Tilapia: Set the time to 1000]
-[20:28:21] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to -848.500000, 190.500000, -584.500000]
-[20:28:27] [Server thread/INFO]: slm[local] logged in with entity id 2763 at (-848.5, 190.0, -584.5)
-[20:28:27] [Server thread/INFO]: slm joined the game
-[20:28:31] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to 940.500000, 63.500000, 125.500000]
-[20:28:47] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to 928.500000, 191.500000, 125.500000]
-[20:28:47] [Server thread/WARN]: the_Tilapia moved too quickly! -11.899760523690134,128.0,-0.02602764914777822
-[20:28:47] [Server thread/WARN]: the_Tilapia moved too quickly! -11.899760523690134,128.0,-0.02602764914777822
-[20:28:56] [Server thread/INFO]: Creeper[local] logged in with entity id 3447 at (928.5, 191.0, 125.5)
-[20:28:56] [Server thread/INFO]: Creeper joined the game
-[20:28:59] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to -1010.500000, 64.500000, -805.500000]
-[20:28:59] [Server thread/WARN]: the_Tilapia moved too quickly! -1939.0,-126.5,-931.0
-[20:29:05] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to -1004.500000, 186.500000, -795.500000]
-[20:29:05] [Server thread/WARN]: the_Tilapia moved too quickly! 6.0,123.0,10.0
-[20:29:12] [Server thread/INFO]: nvwu[local] logged in with entity id 4041 at (-1004.5, 186.0, -795.5)
-[20:29:12] [Server thread/INFO]: nvwu joined the game
-[20:34:06] [Server thread/INFO]: [the_Tilapia: Teleported the_Tilapia to -69.500000, 64.500000, -82.500000]
-[20:36:43] [Server thread/INFO]: [the_Tilapia: Player nvwu is already logged on]
-[20:36:46] [Server thread/INFO]: [the_Tilapia: Set the time to 1000]
-[20:43:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=79, z=-88} class_2338{x=-69, y=77, z=-85}
-[20:43:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=79, z=-88} class_2338{x=-69, y=77, z=-85}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:43:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-71, y=77, z=-83} class_2338{x=-71, y=77, z=-84}
-[20:47:51] [Server thread/INFO]: [the_Tilapia: Set the time to 1000]
-[20:54:54] [Server thread/INFO]: the_Tilapia lost connection: Disconnected
-[20:54:54] [Server thread/INFO]: the_Tilapia left the game
-[21:06:04] [Server thread/INFO]: Stopping the server
-[21:06:04] [Server thread/INFO]: Stopping server
-[21:06:04] [Server thread/INFO]: Saving players
-[21:06:04] [Server thread/INFO]: Saving worlds
-[21:06:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:06:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:06:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:06:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:06:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:06:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:06:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:47:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/games/MinecraftServers/1.19fabric/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:47:35] [main/INFO]: Compatibility level set to JAVA_17
+[13:47:35] [main/INFO]: Loaded configuration file for Lithium: 94 options available, 0 override(s) found
+[13:47:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:47:40] [main/INFO]: Building unoptimized datafixer
+[13:47:42] [main/INFO]: [MagicLib for 1.19]: Mod initialized - Version: 0.5.32
+[13:47:42] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13:47:42] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13:47:42] [main/ERROR]: Failed to start the minecraft server
+java.lang.RuntimeException: Could not execute entrypoint stage 'server' due to errors, provided by 'carpet' at 'carpet.CarpetServer::onGameStarted'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:64) ~[fabric-loader-0.16.9.jar:?]
+	at net.minecraft.server.Main.main(Main.java:101) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19-loader.0.16.9-launcher.1.0.1.jar:1.0.1]
+Caused by: java.lang.NoClassDefFoundError: net/fabricmc/mapping/reader/v2/TinyVisitor
+	at carpettisaddition.CarpetTISAdditionServer.onGameStartedPre(CarpetTISAdditionServer.java:75) ~[carpet-tis-addition-mc1.19-v1.38.0.jar:?]
+	at carpet.CarpetServer.handler$zie000$carpet-tis-addition$onGameStartedPreHook$TISCM(CarpetServer.java:520) ~[%5B地毯%5D%20fabric-carpet-1.19-1.4.79+v220607.jar:?]
+	at carpet.CarpetServer.onGameStarted(CarpetServer.java) ~[%5B地毯%5D%20fabric-carpet-1.19-1.4.79+v220607.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.9.jar:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: net.fabricmc.mapping.reader.v2.TinyVisitor
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at carpettisaddition.CarpetTISAdditionServer.onGameStartedPre(CarpetTISAdditionServer.java:75) ~[carpet-tis-addition-mc1.19-v1.38.0.jar:?]
+	at carpet.CarpetServer.handler$zie000$carpet-tis-addition$onGameStartedPreHook$TISCM(CarpetServer.java:520) ~[%5B地毯%5D%20fabric-carpet-1.19-1.4.79+v220607.jar:?]
+	at carpet.CarpetServer.onGameStarted(CarpetServer.java) ~[%5B地毯%5D%20fabric-carpet-1.19-1.4.79+v220607.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.9.jar:?]
+	... 7 more
